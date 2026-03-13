@@ -15,7 +15,7 @@ if age>0 and age<100:
                E=72*creatine
                CrCl=W*0.85/E
                print("The creatine clearance is: ",CrCl)
-            elif g=="Male":
+            elif gender=="Male":
                 Q=140-age
                 W=Q*weight
                 E=72*creatine
