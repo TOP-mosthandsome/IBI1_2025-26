@@ -1,0 +1,11 @@
+Question:
+What was the distribution of DALYs across all countries in 2019?
+
+Line number:
+The code starts at the section labelled:
+# QUESTION SECTION (your own)
+
+Discussion:
+The histogram shows how DALYs are distributed across countries in 2019. 
+Some countries have very high DALYs, while many have lower values, indicating 
+unequal global disease burden.
