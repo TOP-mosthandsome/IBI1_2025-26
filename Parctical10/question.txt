@@ -1,11 +1,7 @@
 Question:
 What was the distribution of DALYs across all countries in 2019?
-
 Line number:
-The code starts at the section labelled:
-# QUESTION SECTION (your own)
-
+The code starts at line 63 in dalys.py, at the section labelled:
+QUESTION SECTION: Distribution of DALYs across all countries in 2019
 Discussion:
-The histogram shows how DALYs are distributed across countries in 2019. 
-Some countries have very high DALYs, while many have lower values, indicating 
-unequal global disease burden.
+The histogram shows that DALYs were not evenly distributed across countries in 2019. Many countries had lower DALYs values, while a smaller number of countries had much higher values. This suggests that the global burden of disease was unequal across countries in 2019. Differences between countries may be linked to factors such as healthcare access, income, living conditions, disease prevalence, and population health.
