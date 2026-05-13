@@ -26,9 +26,7 @@ print(zimbabwe_years)
 print("Zimbabwe first year:", zimbabwe_years.min())
 print("Zimbabwe last year:", zimbabwe_years.max())
 # COMMENT: Zimbabwe DALYs data were recorded from 1990 to 2019.
-# -------------------------------
 # 2019 data (Entity + DALYs only)
-# -------------------------------
 recent_data = dalys_data.loc[dalys_data["Year"] == 2019, ["Entity", "DALYs"]]
 # Find the country with the maximum DALYs in 2019
 max_country = recent_data.loc[recent_data["DALYs"].idxmax()]
