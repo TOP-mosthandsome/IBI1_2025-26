@@ -1,4 +1,3 @@
-
 input_file = "Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"
 output_file = "stop_genes.fa"
 stop_codons = ["TAA", "TAG", "TGA"]
