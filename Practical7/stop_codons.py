@@ -22,41 +22,29 @@ def find_stops(sequence):
         return [stop_used]
 infile = open(input_file, "r")
 outfile = open(output_file, "w")
-
 sequence = ""
 header = ""
-
 for line in infile:
-
     line = line.strip()
-
     if line.startswith(">"):
-
         # process previous sequence
         if sequence != "":
             stops = find_stops(sequence)
-
             if len(stops) > 0:
                 gene_name = header.split()[0][1:]
                 outfile.write(">" + gene_name + " " + " ".join(stops) + "\n")
                 outfile.write(sequence + "\n")
-
         header = line
         sequence = ""
-
     else:
         sequence = sequence + line
-
 # process last sequence
 if sequence != "":
     stops = find_stops(sequence)
-
     if len(stops) > 0:
         gene_name = header.split()[0][1:]
         outfile.write(">" + gene_name + " " + " ".join(stops) + "\n")
         outfile.write(sequence + "\n")
-
 infile.close()
 outfile.close()
-
 print("Finished! Check stop_genes.fa")
