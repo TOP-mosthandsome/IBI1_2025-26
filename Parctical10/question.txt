@@ -4,4 +4,6 @@ Line number:
 The code starts at line 49 in dalys.py, at the section labelled:
 # QUESTION SECTION: Distribution of DALYs across all countries in 2019
 Discussion:
-The histogram shows how DALYs are distributed across countries in 2019. Most countries have lower DALYs values, while a smaller number of countries have much higher DALYs values. This suggests that the global disease burden is unequal across countries.
+The histogram shows how DALYs are distributed across countries in 2019.
+Most countries have lower DALYs values, while a smaller number of countries have much higher DALYs values.
+This suggests that the global disease burden is unequal across countries.
