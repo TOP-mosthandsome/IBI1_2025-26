@@ -38,3 +38,4 @@ plt.ylabel("number of people")
 plt.title("SIR model")
 plt.legend()
 plt.show()
+#The figure will look approximately the same due to the large value of N and S. To verify the randomness, you can use a smaller value instead.
