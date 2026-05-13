@@ -1,0 +1,4 @@
+This practical was challenging but useful.
+I found the basic SIR model manageable, but adding vaccination and especially the 2D spatial spread was harder.
+I enjoyed seeing the plots change each run because it showed randomness clearly.
+The most important lesson was how probabilistic models can represent infection spread realistically.
