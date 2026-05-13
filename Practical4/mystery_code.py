@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:It calculates the total of 10 random numbers(n) between 1 and 11, and prints the total.
+# Answer:It calculates the total of 11 random numbers(n) between 1 and 10, and prints the total.
 
 # Import libraries
 # randint allows drawing a random number,
